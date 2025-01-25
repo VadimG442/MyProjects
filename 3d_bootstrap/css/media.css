@@ -1,0 +1,437 @@
+@media (max-width: 1024px) {
+
+  .header {
+    padding: 28px 25px;
+  }
+
+  .hero {
+    padding: 0 25px;
+  }
+
+  .hero__header {
+    margin-bottom: 12px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .hero__container {
+    background-image: url('../img/Group204.png');
+    background-size: 48%;
+    background-position: right 44%;
+  }
+
+  .about {
+    padding: 78px 25px 73px;
+  }
+
+  .about__header {
+    max-width: 100%;
+  }
+
+  .about__main-info {
+    padding-left: 35%;
+    background-image: url('../img/Vectarytexturetablet.png');
+    background-position: left 45%;
+    background-size: 23%;
+  }
+
+  .about__paragraph {
+    max-width: 100%;
+  }
+  
+  .about__cols {
+    align-items: baseline;
+    padding-top: 13%;
+    background-position: 16px top;
+  }
+  
+  .about__dec {
+    margin-bottom: 10px;
+  }
+  
+  .about__col-paragraphs {
+    max-width: 100%;
+    padding-left: 0;
+    line-height: 19px;
+  }
+
+/**/
+
+  .teachers {
+    padding: 72px 25px 47px;
+  }
+
+  .teachers__cards {
+    margin-bottom: 24px;
+  }
+
+  .teachers__cards-headers {
+    margin-bottom: 12px;
+  }
+
+  .teachers__cards-paragraphs {
+    max-width: initial;
+    letter-spacing: -0.06px;
+  }
+
+/**/
+
+  .courses {
+    padding: 74px 25px 50px;
+  }
+
+  .courses__list-item {
+    min-height: 557px;
+  }
+
+  .courses__card-two .courses__cards-content {
+    padding-right: 20px;
+  }
+
+  .courses__cards-btn {
+    padding: 20.5px 56px;
+  }
+
+  .courses__cards-decor {
+    right: 3%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .hero__container {
+    background-size: 46%;
+    background-position: 96% 43%;
+  }
+
+  .about__main-info {
+    background-size: 30%;
+  }
+
+  .courses__card-one {
+    background-image: url('../img/6_768.png');
+  }
+
+  .courses__card-two {
+    background-image: url('../img/11_768.png');
+  }
+
+  .courses__card-three {
+    background-image: url('../img/001_768.png');
+  }
+
+  .courses__card-four {
+    background-image: url('../img/002_768.png');
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  .header {
+    padding: 30px 40px;
+  }
+
+  .header__container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .hero {
+    padding: 75px 0 133px;
+  }
+
+  .hero__container {
+    min-height: 1em;
+    max-height: 100%;
+    background: none;
+  }
+
+  .hero__header {
+    margin-bottom: 16px;
+  }
+
+  .hero__paragraph {
+    max-width: 67%;
+  }
+
+  .about {
+    padding: 80px 20px 55px;
+  }
+
+  .about__main-info {
+    padding-left: 35%;
+    background-position: top left;
+  }
+
+  .about__cols {
+    padding-top: 17%;
+  }
+
+  .about__main-content {
+    align-items: flex-start;
+  }
+
+  .teachers {
+    padding: 72px 18px 48px;
+  }
+
+  .courses {
+    padding: 74px 19px 48px;
+  }
+
+  .courses__cards-headers {
+    line-height: 20px;
+  }
+
+  .courses__cards {
+    margin-bottom: 31px;
+  }
+
+  .courses__cards-text {
+    margin-bottom: 34px;
+  }
+
+  .courses__card-two .courses__cards-paragraphs {
+    max-width: 95%;
+  }
+
+  .courses__cards-btn {
+    padding: 20.5px 48px;
+  }
+
+  .courses__cards-decor {
+    right: 4%;
+    top: 1.5%;
+  }
+
+}
+
+@media (max-width: 575px) {
+
+  .header__nav-bar {
+    width: calc(100% + 30px);
+    padding-left: 15px;
+  }
+
+  .header__nav-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .hero__paragraph {
+    max-width: 100%;
+  }
+
+  .about__main-info {
+    padding-left: 0;
+    background: none;
+  }
+
+  .about__cols {
+    padding-top: 20%;
+  }
+
+  .about__cols:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .teachers__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teachers__cards:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .teachers__cards-paragraphs {
+    text-align: center;
+  }
+
+  .courses__cards:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .courses__card-one {
+    background-image: url('../img/6.png');
+  }
+
+  .courses__card-two {
+    background-image: url('../img/11.png');
+  }
+
+  .courses__card-three {
+    background-image: url('../img/001.png');
+  }
+
+  .courses__card-four {
+    background-image: url('../img/002.png');
+  }
+
+}
+
+@media (max-width: 425px) {
+  
+  .header {
+    padding: 25px 15px;
+  }
+
+  .hero {
+    padding: 50px 0;
+  }
+
+  .hero__header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .about {
+    padding: 50px 15px;
+  }
+
+  .about__header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .about__cols {
+    padding-top: 0;
+    padding-left: 35%;
+    align-items: center;
+  }
+
+  .teachers {
+    padding: 50px 15px;
+  }
+
+  .teachers__header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .teachers__cards {
+    display: block;
+  }
+
+  .teachers__cards-paragraphs {
+    text-align: initial;
+  }
+
+  .courses {
+    padding: 50px 15px;
+  }
+
+  .courses__header {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .header {
+    padding: 25px 0;
+  }
+
+  .header__container {
+    gap: 22px;
+  }
+
+  .hero__header {
+    margin-bottom: 5px;
+  }
+
+  .hero__paragraph {
+    margin-bottom: 43px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .hero__btn {
+    padding: 22px 53.5px;
+    font-size: 16px;
+  }
+
+  .about {
+    padding: 50px 0;
+  }
+
+  .about__header {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .about__cols {
+    padding-left: 39.1%;
+  }
+
+  .about__cols:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .teachers {
+    padding: 42px 0px 24px;
+  }
+
+  .teachers__header {
+    margin-bottom: 22px;
+    font-size: 20px;
+  }
+
+  .teachers__cards:not(:last-child) {
+    margin-bottom: 22px;
+  }
+
+  .courses {
+    padding: 42px 0px 20px;
+  }
+
+  .courses__header {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .courses__cards {
+    min-height: 653px;
+  }
+
+  .courses__cards:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .courses__card-one {
+    background-image: url('../img/6_320.png');
+  }
+
+  .courses__card-two {
+    background-image: url('../img/11_320.png');
+  }
+
+  .courses__card-three {
+    background-image: url('../img/001_320.png');
+  }
+
+  .courses__card-four {
+    background-image: url('../img/002_320.png');
+  }
+
+  .courses__card-three .courses__cards-headers {
+    max-width: 60%;
+  }
+
+  .courses__cards-headers {
+    line-height: 22px;
+  }
+
+  .courses__cards-btn {
+    padding: 20.5px 56px;
+  }
+
+}

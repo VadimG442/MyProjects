@@ -1,0 +1,594 @@
+@media (max-width: 1265px) {
+
+  .header {
+    padding: 31px 50px 28px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    gap: 23px;
+  }
+
+  .header__logo {
+    width: 188px;
+  }
+
+  .header__nav-bar {
+    min-width: 100%;
+    order: 10;
+    margin: 0;
+  }
+
+  .header__nav-list {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .hero {
+    padding: 99px 50px 102px;
+  }
+
+  .hero__content {
+    max-width: 660px;
+  }
+
+  .hero__paragraph {
+    margin-bottom: 135px;
+  }
+
+  .galery__container {
+    flex-direction: column;
+  }
+
+  .galery__header {
+    margin-bottom: 28px;
+  }
+
+  .galery__century-side {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .galery__pictures-list {
+    width: 100%;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
+
+  .catalog__paragraph {
+    max-width: initial;
+  }
+
+  .catalog__artists-cards {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .catalog__artists-images {
+    margin-bottom: 35px;
+  }
+
+  .catalog__cards-info {
+    max-width: initial;
+    margin-left: 0;
+  }
+
+  .catalog__cards-paragraphs {
+    letter-spacing: 0.01px;
+  }
+
+  .events__list {
+    gap: 1.5em;
+  }
+
+  .events__list-item {
+    min-height: 0;
+    width: calc((100% / 3) - 1em);
+  }
+
+  .events__cards-content {
+    padding: 15px 35px 50px;
+  }
+
+  .events__cards-main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .events__first-cards-heading {
+    max-width: initial;
+  }
+
+  .events__cards-headers {
+    margin-bottom: 7px;
+  }
+
+  .events__cards-addr {
+    align-self: flex-end;
+    max-width: 74%;
+    margin-bottom: 6px;
+    text-align: right;
+  }
+
+  .projects__paragraph {
+    max-width: initial;
+  }
+
+  .projects__main-info {
+    margin-bottom: 25px;
+  }
+
+  .projects__partners-block {
+    gap: 25px;
+  }
+
+  .projects__partners-image {
+    padding: 26px;
+  }
+
+  .show-room {
+    padding-bottom: 40px;
+  }
+
+  .show-room__container {
+    flex-direction: column;
+    flex-wrap: initial;
+    gap: 30px;
+  }
+
+  .show-room__address {
+    margin-bottom: 0;
+  }
+
+  .show-room__header {
+    margin-bottom: 16px;
+  }
+
+  .show-room__addr-descr {
+    font-size: 14px;
+  }
+
+  .show-room__form {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .show-room__submit-btn {
+    padding: 12px 37px;
+  }
+
+  .show-room__contacts-header {
+    margin-bottom: 8px;
+    line-height: 32px;
+  }
+
+  .footer {
+    padding: 40px 50px 35px;
+  }
+
+  .footer__media-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+@media (max-width: 940px) {
+
+  .events__list {
+    gap: 29px;
+  }
+
+  .events__list-item {
+    width: 100%;
+  }
+
+  .events__cards-addr {
+    max-width: 27%;
+  }
+
+  .events__cards-headers {
+    margin-bottom: 13px;
+    max-width: 83%;
+  }
+
+  .events__cards-main-content {
+    margin-bottom: 63px;
+  }
+
+  .projects {
+    padding-bottom: 80px;
+  }
+
+  .projects__paragraph {
+    max-width: 98%;
+  }
+
+  .projects__main-info {
+    margin-bottom: 30px;
+  }
+
+  .projects__partners-header {
+    margin-bottom: 32px;
+  }
+
+  .projects__partners-block {
+    gap: 34px;
+    flex-wrap: wrap;
+  }
+
+  .projects__partners-image {
+    padding: 26px 20px;
+  }
+
+  .show-room {
+    padding-bottom: 37px;
+  }
+
+  .show-room__form {
+    gap: 12px;
+  }
+
+  .show-room__inputs {
+    min-width: 327px;
+  }
+
+  .show-room__submit-btn {
+    padding: 12px 24px;
+  }
+
+  .footer {
+    padding-bottom: 37px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  
+  .hero {
+    padding: 85px 50px 87px;
+  }
+
+  .hero__content {
+    max-width: 620px;
+  }
+
+  .galery__container {
+    min-height: 404px;
+  }
+
+  .galery__pictures-list {
+    gap: 35px;
+  }
+
+  .catalog__cards-date {
+    margin-bottom: 5px;
+  }
+
+}
+
+@media (max-width: 660px) {
+
+  .header,
+  .hero,
+  .about,
+  .galery,
+  .catalog,
+  .events,
+  .projects,
+  .show-room,
+  .footer{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .same-headers {
+    font-size: 40px;
+  }
+
+  .header__nav-bar {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .header__nav-list {
+    gap: 25px;
+  }
+
+  .hero__header {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero__paragraph {
+    margin-bottom: 80px;
+  }
+
+  .galery__container {
+    min-height: 0;
+  }
+
+}
+
+@media (max-width: 425px) {
+
+  .header {
+    padding-top: 15px;
+    padding-bottom: 13px;
+  }
+
+  .header__container {
+    gap: 10px;
+  }
+
+  .header__logo {
+    width: 96px;
+  }
+
+  .header__container {
+    width: calc(100% + 15px);
+  }
+
+  .header__search-btn {
+    margin-right: 15px;
+  }
+
+  .header__search-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header__nav-list {
+    font-size: 12px;
+  }
+
+  .same-headers {
+    font-size: 28px;
+  }
+
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 50px;
+  }
+
+  .hero__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__content {
+    max-width: 286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__header {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .hero__paragraph {
+    max-width: 90%;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .hero__btn {
+    padding: 12.5px 16px;
+    font-size: 12px;
+  }
+
+  .about {
+    padding: 54px 15px 42px;
+  }
+
+  .about__header {
+    margin-bottom: 13px;
+  }
+
+  .about__paragraph {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .galery {
+    padding: 53px 15px 47px;
+  }
+
+  .galery__header {
+    margin-bottom: 22px;
+    font-size: 28px;
+  }
+
+  .galery__labels {
+    margin-bottom: 13px;
+  }
+
+  .galery__pictures-list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .galery__list-item {
+    display: inherit;
+    justify-content: center;
+  }
+
+  .catalog {
+    padding-top: 53px;
+    padding-bottom: 52px;
+  }
+
+  .catalog__header {
+    margin-bottom: 16px;
+  }
+
+  .catalog__artists-cards:not(:last-child) {
+    margin-bottom: 29px;
+  }
+
+  .catalog__main-info {
+    margin-bottom: 29px;
+  }
+
+  .catalog__artists-cards {
+    align-items: center;
+  }
+
+  .catalog__artists-images {
+    margin-bottom: 24px;
+  }
+
+  .catalog__cards-headers {
+    margin-bottom: 7px;
+    line-height: 29px;
+    letter-spacing: 0.13px;
+  }
+
+  .catalog__cards-date {
+    margin-bottom: 15px;
+  }
+
+  .events {
+    padding-bottom: 54px;
+  }
+
+  .events__header {
+    margin-bottom: 17px;
+  }
+
+  .events__list {
+    gap: 20px;
+  }
+
+  .events__cards-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .events__cards-main-content {
+    margin-bottom: 56px;
+  }
+
+  .events__cards-addr {
+    max-width: 57%;
+    margin-bottom: 11px;
+  }
+
+  .events__cards-headers {
+    max-width: initial;
+    margin-bottom: 5px;
+    line-height: 33px;
+  }
+
+  .events__cards-second-card-paragraph {
+    max-width: 96%;
+    letter-spacing: 0.1px;
+  }
+
+  .events__cards-show-more-btn {
+    margin-left: 8px;
+  }
+
+  .projects {
+    padding-bottom: 0;
+  }
+
+  .projects__header {
+    margin-bottom: 15px;
+  }
+
+  .projects__paragraph {
+    max-width: 99%;
+  }
+
+  .projects__main-info {
+    margin-bottom: 27px;
+  }
+
+  .projects__partners-block {
+    gap: 12px;
+  }
+
+  .projects__partners-image {
+    padding: 29px 64px;
+  }
+
+  .projects__partners-header {
+    margin-bottom: 17px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .show-room {
+    padding-bottom: 44px;
+    border: none;
+  }
+
+  .show-room__header {
+    font-size: 18px;
+    margin-bottom: 9px;
+  }
+
+  .show-room__container {
+    gap: 19px;
+  }
+
+  .show-room__form {
+    gap: 18px;
+  }
+
+  .show-room__inputs {
+    min-width: 290px;
+    padding: 11px 25px;
+  }
+
+  .show-room__submit-btn {
+    padding: 11px 34px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .show-room__submit-long-text {
+    display: none;
+  }
+
+  .show-room__submit-mobile-text {
+    display: initial;
+  }
+
+  .show-room__contacts-header {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .show-room__media-icons {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer {
+    padding-top: 22px;
+    padding-bottom: 15px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+
+  .footer__logo {
+    width: 96px;
+  }
+
+  .footer__media-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+}
